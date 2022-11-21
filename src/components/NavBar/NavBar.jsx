@@ -7,7 +7,7 @@ export default function NavBar ({user}) {
             <Link to="/movies">Movies List Page</Link>
             &nbsp; | &nbsp;
             <Link to="/actors">Actors List Page</Link>
-            <p>{user}</p>
+            <p>{user.name}</p>
 
         </nav>
     )

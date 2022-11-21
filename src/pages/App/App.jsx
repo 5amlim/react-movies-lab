@@ -25,7 +25,7 @@ function App() {
       
       </>
       :
-      <LoginPage/>
+      <LoginPage setUser={setUser}/>
     }
     </div>
   );
