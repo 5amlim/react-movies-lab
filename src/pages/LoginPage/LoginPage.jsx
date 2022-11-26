@@ -18,6 +18,7 @@ export default function LoginPage ( { setUser }) {
 
     return (
              <>
+             <h1>Log In</h1>
                 <div className="form-container">
                      <form autoComplete="false" onSubmit={handleSubmit}>
                             <label>Name</label>
